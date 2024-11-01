@@ -1,4 +1,24 @@
 basic.forever(function () {
+    basic.showString("JDFBGUSERHBGIUSHERGUIHEGIHEGRUIGHSUIGHSUIHG9UH89URSHY8")
+    basic.showNumber(7.698769807698058e+56)
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    basic.showIcon(IconNames.No)
+    basic.showString("8")
+    basic.showLeds(`
+        # # . # #
+        # # . # #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
+})
+basic.forever(function () {
     basic.showLeds(`
         # . # . .
         # . # . .
@@ -23,26 +43,6 @@ basic.forever(function () {
     basic.showString("G7IF5D697H08F67D57EDYG08")
 })
 basic.forever(function () {
-    basic.showString("JDFBGUSERHBGIUSHERGUIHEGIHEGRUIGHSUIGHSUIHG9UH89URSHY8")
-    basic.showNumber(7.698769807698058e+56)
-    basic.showLeds(`
-        # . . . #
-        . # . # .
-        . . # . .
-        . # . # .
-        # . . . #
-        `)
-    basic.showIcon(IconNames.No)
-    basic.showString("8")
-    basic.showLeds(`
-        # # . # #
-        # # . # #
-        # . . . #
-        # . . . #
-        # # # # #
-        `)
-})
-basic.forever(function () {
     basic.showLeds(`
         . . . . .
         # # # # #
@@ -64,4 +64,13 @@ basic.forever(function () {
         . # # # .
         # # . # #
         `)
+    basic.showIcon(IconNames.Yes)
+    basic.showIcon(IconNames.No)
+    basic.showIcon(IconNames.Yes)
+    basic.showIcon(IconNames.No)
+    basic.showString("FALSE")
+    basic.showString("TRUE")
+    basic.showString("FALSE")
+    basic.showNumber(0)
+    basic.showNumber(1e+65)
 })
